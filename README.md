@@ -29,16 +29,16 @@ biocLite("ChemmineR")
 ```
 
 ## Test procedure for ECBS model with MEK1 (Q02750) validation data
-unzip chemical feature data files 
+### Unzip chemical feature files 
 ```
 cd data_files/
 bunzip2 mat.storable.data.bz2
 bunzip2 BindingDB_All_2D_v2.1uM_Affinity.bz2
 ```
 
-### Output files 
-* MEK1 (Q02750) validation data from [Durai et al. BMC Bioinformatics (2020)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03643-x)
-* chemical data file: data_files/new_mol.txt 
+### Initial screening data for MEK1
+* MEK1 (Q02750) validation data from [Durai et al. BMC Bioinformatics (2020)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03643-x)  
+* chemical data file: data_files/new_mol.txt   
 |ChemID|POC|IC50|Class|Target|
 |------|---|----|-----|------|
 |27846780|100|NA|0|Q02750|
