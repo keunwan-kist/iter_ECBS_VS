@@ -36,6 +36,13 @@ bunzip2 mat.storable.data.bz2
 bunzip2 BindingDB_All_2D_v2.1uM_Affinity.bz2
 ```
 
+### Output files 
+* MEK1 (Q02750) validation data from [Durai et al. BMC Bioinformatics (2020)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03643-x)
+* chemical data file: data_files/new_mol.txt 
+|ChemID|POC|IC50|Class|Target|
+|------|---|----|-----|------|
+|27846780|100|NA|0|Q02750|
+
 ```
 cd example
 
@@ -52,11 +59,11 @@ Rscript ../../scripts/splitset_train_and_test_target-wise.r trainset1.target.dat
 
 ### Output files 
 * AUC in PR curve
-pr_auc.trainset1.target.data.out
+**pr_auc.trainset1.target.data.out**
 * test score for OOB samples (Random Forest)
-oob.trainset1.target.testset1.target.score
+**oob.trainset1.target.testset1.target.score**
 * test score for indepenent test set1 
-result.trainset1.target.testset1.target.score
+**result.trainset1.target.testset1.target.score**
 
 ## Virtual Screening with Target-ECBS 
 ```
