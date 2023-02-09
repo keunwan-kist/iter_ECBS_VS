@@ -44,6 +44,7 @@ bunzip2 BindingDB_All_2D_v2.1uM_Affinity.bz2
 |------|---|----|-----|------|  
 |27846780|100|NA|0|Q02750|  
 
+### Data update, retrain, test of ECBS
 ```
 cd example
 
